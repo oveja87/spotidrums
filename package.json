@@ -1,7 +1,7 @@
 {
   "name": "spotidrums",
   "version": "1.0.0",
-  "description": "",
+  "description": "Play drums to your favoutite songs on spotify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,5 +28,9 @@
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "webpack": "^1.12.15"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
   }
 }
